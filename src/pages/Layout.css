@@ -1,0 +1,12 @@
+ul.nav-link {
+    list-style: none;
+    margin: 10;
+    padding: 10;
+}
+
+li {
+    padding: 5px 0px;
+    margin: 10 1rem;
+    cursor: pointer;
+}
+
