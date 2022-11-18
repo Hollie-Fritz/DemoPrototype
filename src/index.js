@@ -4,6 +4,9 @@ import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import Customer from "./pages/Customer";
 import Restauranteur from "./pages/Restauranteur";
+import { Amplify } from 'aws-amplify';
+import config from './aws-exports';
+Amplify.configure(config);
 
 
 export default function App() {
